@@ -1,0 +1,81 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JennyNW.github.io/iiif-manifest/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Jenny's images",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://06552f10-0a2e-4df4-8311-ea4067fd27ab",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://8c4a7276-5c94-46e4-a8ee-58923f52fd0f",
+      "@type" : "sc:Canvas",
+      "label" : "Levavasseur Mill",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://aea7a9d0-c9ae-44f5-908a-dc25b39b6cd6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/levavasseurs-gothic-mill_202303/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/levavasseurs-gothic-mill_202303",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://8c4a7276-5c94-46e4-a8ee-58923f52fd0f"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0fe5f358-9f57-4a59-ae30-481bcbafc8ff",
+      "@type" : "sc:Canvas",
+      "label" : "Or 11864, f.46v canvas",
+      "height" : 6443,
+      "width" : 5043,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://15f8d94e-de72-41f6-bf0b-9247d5802ef9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.qdl.qa/iiif/images/81055/vdc_100106889342.0x000001/Or%2011864_0101.jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.qdl.qa/iiif/images/81055/vdc_100106889342.0x000001/Or%2011864_0101.jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level1", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray", "bitonal" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "sizeUpscaling", "rotationBy90s", "mirroring" ],
+              "maxWidth" : 3000,
+              "maxHeight" : 3000
+            } ]
+          },
+          "height" : 6443,
+          "width" : 5043
+        },
+        "on" : "http://0fe5f358-9f57-4a59-ae30-481bcbafc8ff"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
